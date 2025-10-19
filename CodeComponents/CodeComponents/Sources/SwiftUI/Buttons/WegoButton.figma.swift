@@ -20,12 +20,12 @@ struct WegoButton_Large_doc: FigmaConnect {
     
     @FigmaEnum("State", mapping: [
         "Processing": true
-    ])
+    ], hideDefault: true)
     var isProcessing: Bool = false
     
     @FigmaEnum("State", mapping: [
         "Disabled": true
-    ])
+    ], hideDefault: true)
     var isDisabled: Bool = false
     
     var body: some View {
@@ -59,12 +59,12 @@ struct WegoButton_Medium_doc: FigmaConnect {
     
     @FigmaEnum("State", mapping: [
         "Processing": true
-    ])
+    ], hideDefault: true)
     var isProcessing: Bool = false
     
     @FigmaEnum("State", mapping: [
         "Disabled": true
-    ])
+    ], hideDefault: true)
     var isDisabled: Bool = false
     
     var body: some View {
@@ -98,12 +98,12 @@ struct WegoButton_Small_doc: FigmaConnect {
     
     @FigmaEnum("State", mapping: [
         "Processing": true
-    ])
+    ], hideDefault: true)
     var isProcessing: Bool = false
     
     @FigmaEnum("State", mapping: [
         "Disabled": true
-    ])
+    ], hideDefault: true)
     var isDisabled: Bool = false
     
     var body: some View {
