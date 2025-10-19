@@ -18,25 +18,13 @@ struct WegoButton_Large_doc: FigmaConnect {
     ])
     var type: WegoButtonVariant = .primary
     
-    @FigmaEnum("State", mapping: [
-        "Processing": true
-    ], hideDefault: true)
-    var isProcessing: Bool = false
-    
-    @FigmaEnum("State", mapping: [
-        "Disabled": true
-    ], hideDefault: true)
-    var isDisabled: Bool = false
-    
     var body: some View {
         WegoButtonView(
             variant: type,
             size: .large,
             title: "Button",
-            isProcessing: isProcessing,
             action: { }
         )
-        .disabled(isDisabled)
     }
 }
 
@@ -57,25 +45,13 @@ struct WegoButton_Medium_doc: FigmaConnect {
     ])
     var type: WegoButtonVariant = .primary
     
-    @FigmaEnum("State", mapping: [
-        "Processing": true
-    ], hideDefault: true)
-    var isProcessing: Bool = false
-    
-    @FigmaEnum("State", mapping: [
-        "Disabled": true
-    ], hideDefault: true)
-    var isDisabled: Bool = false
-    
     var body: some View {
         WegoButtonView(
             variant: type,
             size: .medium,
             title: "Button",
-            isProcessing: isProcessing,
             action: { }
         )
-        .disabled(isDisabled)
     }
 }
 
@@ -96,25 +72,13 @@ struct WegoButton_Small_doc: FigmaConnect {
     ])
     var type: WegoButtonVariant = .primary
     
-    @FigmaEnum("State", mapping: [
-        "Processing": true
-    ], hideDefault: true)
-    var isProcessing: Bool = false
-    
-    @FigmaEnum("State", mapping: [
-        "Disabled": true
-    ], hideDefault: true)
-    var isDisabled: Bool = false
-    
     var body: some View {
         WegoButtonView(
             variant: type,
             size: .small,
             title: "Button",
-            isProcessing: isProcessing,
             action: { }
         )
-        .disabled(isDisabled)
     }
 }
 
