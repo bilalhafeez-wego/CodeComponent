@@ -272,6 +272,9 @@
 			);
 			mainGroup = 5A5A61632EA2D1950059B5B0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5AE195F52EA558F400EC126B /* XCRemoteSwiftPackageReference "code-connect" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5A5A616E2EA2D1950059B5B0 /* Products */;
 			projectDirPath = "";
@@ -852,6 +855,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AE195F52EA558F400EC126B /* XCRemoteSwiftPackageReference "code-connect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/figma/code-connect";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 5A5A61642EA2D1950059B5B0 /* Project object */;
 }

@@ -2,9 +2,12 @@
   "codeConnect": {
     "include": ["CodeComponents/Sources/SwiftUI/**/*.swift"],
     "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/epvlg1wjyLKHF74h5z6XCS/Component-Library-4.0?node-id=2-19&p=f&m=dev",
-    "documentUrlSubstitutions": {
-      "from": "/Users/bilalhafeez/Desktop/CodeComponent/CodeComponents",
-      "to": "https://github.com/bilalhafeez-wego/CodeComponent/blob/feature/code-components"
-    }
+    "repositoryUrl": "https://github.com/bilalhafeez-wego/CodeComponent/tree/feature/code-components",
+    "documentUrlSubstitutions": [
+      {
+        "from": "/Users/bilalhafeez/Desktop/CodeComponent",
+        "to": "https://github.com/bilalhafeez-wego/CodeComponent/blob/feature/code-components"
+      }
+    ]
   }
 }
