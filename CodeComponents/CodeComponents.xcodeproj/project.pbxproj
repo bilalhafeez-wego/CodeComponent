@@ -42,9 +42,23 @@
 		5A5A61BD2EA2D6EF0059B5B0 /* ComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5AE196202EA5890E00EC126B /* Exceptions for "CodeComponents" folder in "CodeComponents" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Sources/SwiftUI/Buttons/Button-Store.figma.swift",
+				Sources/SwiftUI/Buttons/WegoButton.figma.swift,
+			);
+			target = 5A5A616C2EA2D1950059B5B0 /* CodeComponents */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5A5A616F2EA2D1950059B5B0 /* CodeComponents */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5AE196202EA5890E00EC126B /* Exceptions for "CodeComponents" folder in "CodeComponents" target */,
+			);
 			path = CodeComponents;
 			sourceTree = "<group>";
 		};
